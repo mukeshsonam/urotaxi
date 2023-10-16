@@ -5,7 +5,7 @@ spring:
     name: urotaxi
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://ec2-3-110-117-163.ap-south-1.compute.amazonaws.com:3306/urotaxidb
+    url: jdbc:mysql://urotaxidb:3306/urotaxidb
     username: root
     password: root
   jpa:

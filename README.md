@@ -37,7 +37,8 @@ docker container run --name urotaxi --network=urotaxinetwork -p 8080:8082 --env-
 a.Modify the src/main/resources/application.yml as tomcat does not accept the vars.env
    url: jdbc:mysql://urotaximysqldb/urotaxidb
    username: root
-   password: welcome1
+   password: root
+
 
 
 b.Update the pom.xml with below entry
